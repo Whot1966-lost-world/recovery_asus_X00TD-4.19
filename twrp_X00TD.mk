@@ -9,14 +9,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common TWRP stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from X00TD device
 $(call inherit-product, device/asus/X00TD/device.mk)
 
 PRODUCT_DEVICE := X00TD
-PRODUCT_NAME := omni_X00TD
+PRODUCT_NAME := twrp_X00TD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_X00TD
 PRODUCT_MANUFACTURER := asus
