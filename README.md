@@ -1,4 +1,4 @@
-# Android device tree for asus ASUS_X00TD (X00TD)
+# Android recovery tree for Asus Zenfone Max Pro M1 (X00TD) featuring Kernel 4.19
 
 ```
 #
